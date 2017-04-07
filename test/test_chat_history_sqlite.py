@@ -35,7 +35,7 @@ class TestAgentCore(unittest.TestCase):
 
     def test_query_chat(self):
         items = db.query_chat()
-        self.assertTrue(len(items) > 4)
+        self.assertTrue(len(items) >= 4)
 
     def test_query_last_chat_input(self):
         item = db.query_last_chat_input(self.user_id, self.session_id)
