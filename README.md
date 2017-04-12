@@ -8,9 +8,23 @@ $python3 agent_driver.py
 
 Python version: 3.4
 
-It's nice to prevent bugs with unittest. Unittests are kept in test/, reference: https://docs.python.org/3/library/unittest.html
+** agent_core.py ** chatbot that handle user input and generate response.
 
-SQLite files are kept in memory/, reference: https://www.sqlite.org/docs.html
+** agent_driver.py ** main function that runs chatbot for users.
+
+** memory/ ** SQLite files are kept in memory/, reference: https://www.sqlite.org/docs.html
+
+** resources/ ** keeps resources like Stanford Corelp, etc.
+
+** response/ ** maintain response generators that can be utilized by agent_core.py
+
+** test/ ** It's nice to prevent bugs with unittest, reference: https://docs.python.org/3/library/unittest.html
+
+** logs/ ** saves the log files for debugging.
+
+** utiles/ ** keeps helper files.
+
+
 
 
 
